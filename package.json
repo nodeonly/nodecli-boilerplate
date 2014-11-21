@@ -1,0 +1,27 @@
+{
+  "name": "gup",
+  "version": "1.0.1",
+  "description": "gup is a npm wrapper for 无脑 pull 当前分支",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": " node bin/gup"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "gup": "bin/gup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i5ting/gup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/gup/issues"
+  },
+  "homepage": "https://github.com/i5ting/gup",
+  "dependencies": {
+    "shelljs": "^0.3.0"
+  }
+}
